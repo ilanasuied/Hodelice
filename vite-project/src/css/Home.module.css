@@ -1,0 +1,27 @@
+.homePage {
+    background: url("../image/homepage.png");
+    background-size: cover;
+    background-position: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: black;
+}
+
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.homeContainer p {
+    font-size: 1.2rem;
+    text-align: center;
+}

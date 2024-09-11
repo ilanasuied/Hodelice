@@ -1,0 +1,24 @@
+.aboutPage {
+    background-color: #03030386;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+  }
+  
+  .aboutPage p {
+    text-align: center;
+    font-size: 1.2rem;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  .aboutPage p.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  

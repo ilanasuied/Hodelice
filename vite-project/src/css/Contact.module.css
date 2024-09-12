@@ -1,4 +1,3 @@
-/* Contact.module.css */
 .contactPage {
     background-color: #f7f7f7;
     padding: 50px 20px;
@@ -10,6 +9,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    width: 100%;
   }
   
   .contactPage h2 {

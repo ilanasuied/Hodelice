@@ -7,33 +7,23 @@ function Menu() {
     <section id="menu" className={styles.menuPage}>
       <h2>תפריטים</h2>
       <div className={styles.menuContainer}>
-        <div>
-          <img src="./src/image/entrees.webp" alt="Entrees" />
-          ראשונות
-          <GoChevronRight className={styles.icon} />
-        </div>
-        <div>
-          <img src="./src/image/principal.webp" alt="Principals" />
-          עקריות
-          <GoChevronRight className={styles.icon} />
-        </div>
-        <div>
-          <img src="./src/image/desserts.webp" alt="Desserts" />
-          קינוחים
-          <GoChevronRight className={styles.icon} />
-        </div>
-        <div>
-          <img src="./src/image/pizza.webp" alt="Desserts" />
-          פיצות
-          <GoChevronRight className={styles.icon} />
-        </div>
-        <div>
-          <img src="./src/image/picknick.webp" alt="Desserts" />
-          סלסלאות פיקניק
-          <GoChevronRight className={styles.icon} />
-        </div>
+        <table className={styles.menuTable}>
+          <tbody>
+            <tr>
+              <td className={styles.menuItem}>ראשונות</td></tr>
+            <tr>
+              <td className={styles.menuItem}>עקריות</td>
+            </tr>
+            <tr>
+              <td className={styles.menuItem}>קינוחים</td>
+            </tr>
+            <tr>
+              <td className={styles.menuItem}>פיצות</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-    </section>
+    </section >
   );
 }
 

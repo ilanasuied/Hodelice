@@ -19,6 +19,9 @@ function Menu() {
             <tr>
               <td className={styles.menuItem}>פיצות</td>
             </tr>
+            <tr>
+              <td className={styles.menuItem}>סלסלאות פיקניק</td>
+            </tr>
           </tbody>
         </table>
       </div>

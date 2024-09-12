@@ -17,11 +17,11 @@ function Contact() {
         </div>
         <div className={styles.contactItem}>
           <FaWhatsapp className={styles.icon} />
-          <span>+972 585525129</span>
+          <a href="https://wa.me/message/KGSWIPLNDF7TD1" target="_blank"><span>+972 585525129</span></a>
         </div>
         <div className={styles.contactItem}>
           <FaInstagram className={styles.icon} />
-          <span>@hodelice_</span>
+          <a href="https://www.instagram.com/hodelice_?igsh=NThtc2F0cjJibjhn&utm_source=qr" target="_blank"><span>@hodelice_</span></a>
         </div>
       </div>
     </section>

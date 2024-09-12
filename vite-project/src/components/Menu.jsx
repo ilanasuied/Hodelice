@@ -5,8 +5,7 @@ import { GoChevronRight } from 'react-icons/go'; // Import de l'icône
 function Menu() {
   return (
     <section id="menu" className={styles.menuPage}>
-      <h2>תפריטים</h2>
-      <div className={styles.menuContainer}>
+\      <div className={styles.menuContainer}>
         <table className={styles.menuTable}>
           <tbody>
             <tr>

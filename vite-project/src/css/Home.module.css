@@ -1,8 +1,9 @@
 .homePage {
     background: url("../images/homepage.png");
-    background-size: cover;
-    background-position: no-repeat;
-    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: relative;
     height: 100vh;
     display: flex;
     justify-content: center;

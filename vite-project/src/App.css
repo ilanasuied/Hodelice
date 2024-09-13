@@ -5,6 +5,7 @@
   flex-direction: column;
   max-width: 1050px; /* Définit la largeur maximale */
   margin: 0 auto;    /* Centrer horizontalement */
+  overflow-x:hidden;
 }
 
 nav{
